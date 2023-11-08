@@ -1,0 +1,303 @@
+@font-face {
+    font-family: Akkurat;
+    src: url(../fonts/Akkurat.ttf);
+}
+
+@font-face {
+    font-family: sansnarrow;
+    src: url(../fonts/PTSansNarrow-Regular.ttf);
+}
+
+header{
+    border-bottom: 4px solid black;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+    header li{
+        background: black;
+        color: white;
+        padding: 1em;
+        list-style: none;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 1em;
+        font-size: 0.65em;
+    }
+
+    header a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1em;
+    }
+
+    header a:link{
+        color: white
+    }
+
+    header a:visited{
+        color: white
+    }
+
+h2 {
+    font-family: sansnarrow;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-family: Akkurat;
+    font-size: 2.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+h4 {
+    font-family: Akkurat;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: sansnarrow;
+    font-size: 1.3em;
+}
+
+footer{
+    background: black;
+    color: white;
+}
+
+footer > div{
+    display: flex;
+}
+
+footer h4{
+    margin-right: 3em;   
+}
+
+/*landingpage*/
+#landingpage footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#landingpage img{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+#landingpage{
+    background-image:url("../images/landingpage.JPG");
+    background-size: cover;
+}
+
+#landingpage h1{
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+#landingpage h2{
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+#landingpage p{
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+#landingpage a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*navigatiepagina*/
+
+#navigatiepagina main{
+    background-image:url("../images/achtergrond.jpg");
+    background-size: cover;
+}
+
+#navigatiepagina a{
+    text-decoration: none;
+    color: black;
+}
+
+#navigatiepagina a> div{
+    border-bottom:4px solid black ;
+    display: flex;
+}
+
+#navigatiepagina img{
+    height: 12em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#navigatiepagina a:nth-child(even){
+    text-align: end;
+}
+
+#navigatiepagina section>img{
+    width: 15%;
+    height: 15%;
+}
+
+#navigatiepagina section>img{
+    width: 15%;
+    height: 15%;
+}
+
+#navigatiepagina p{
+margin-top: 0.5em;
+margin-bottom: 0;
+}
+
+
+/* over pagina */
+
+#over div{
+    display: flex;
+}
+
+#over main>section{
+    border-bottom:4px solid black ;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#over main>div{
+    border-bottom:4px solid black ;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#over img{
+    max-width: 100%;
+}
+
+#over main{
+    background-image:url("../images/achtergrond.jpg");
+    background-size: cover;
+}
+
+#over h3{
+    font-family: Akkurat;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+#over ol>li{
+    margin-top: 3em;
+    margin-bottom: 4em;
+    margin-right: 2em;
+    background-color: rgb( 249,239,0);
+    color: black;
+    padding: 1.2em; 
+    border: 0.7em solid rgb(255, 222, 0);
+    font-family: sansnarrow;
+    font-size: 1em;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+#over ol>li:nth-child(even){
+    text-align: end;
+    transform: rotate(-8deg);
+}
+
+#over ol>li:nth-child(odd){
+    transform: rotate(8deg);
+}
+
+#over main ul>li{
+    font-family: sansnarrow;
+    font-size: 1.3em;
+}
+
+
+
+
+/*interview pagina*/
+
+#interview{
+    background-image:url("../images/achtergrond3.jpg");
+    background-size: cover;
+}
+
+#interview section > p:nth-child(odd){
+    text-align: end;
+    margin-left: 4em;
+    background-color: rgb( 249,239,0);
+    color: black;
+    padding: 1.2em; 
+    border: 0.7em solid rgb(255, 222, 0);
+}
+
+#interview section > p:nth-child(even){
+    margin-right: 2em;
+    font-weight: 900;
+    background-color: rgb( 255,222,0);
+    padding: 0.8em;
+    margin-bottom: -1.9em;
+    transform: rotate(-4deg);
+}
+
+
+
+/*rondleiding*/
+
+div.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
+    border-top: 4px solid black ;
+    border-bottom: 4px solid black ;
+    margin-top: 1em;
+    background-color: white;
+}
+
+div.scroll-container img{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    width: 90%;
+    height: 90%;
+}
+
+#rondleiding main>img{
+    border-top: 4px solid black ;
+    border-bottom: 4px solid black ;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+} 
+
+#rondleiding main>.slider{
+    border: 0 solid;
+    margin-top: -10em;
+    padding-bottom: 2.5em;
+}
+
+#rondleiding main{
+    background-image:url("../images/achtergrond2.jpg");
+    background-size: cover;
+}
